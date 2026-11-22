@@ -1,0 +1,315 @@
+{
+ "pareto": {
+  "buyers": 5285,
+  "total_profit": 1724228,
+  "top20_share": 60.4,
+  "top50_share": 89.0,
+  "unprofitable": 241,
+  "unprofitable_total": -6497,
+  "curve": [
+   0.26,
+   8.39,
+   14.01,
+   18.78,
+   22.91,
+   26.58,
+   29.95,
+   32.99,
+   35.88,
+   38.6,
+   41.15,
+   43.54,
+   45.8,
+   47.91,
+   49.94,
+   51.87,
+   53.72,
+   55.5,
+   57.22,
+   58.83,
+   60.41,
+   61.93,
+   63.39,
+   64.8,
+   66.16,
+   67.47,
+   68.71,
+   69.93,
+   71.12,
+   72.26,
+   73.36,
+   74.43,
+   75.44,
+   76.44,
+   77.4,
+   78.31,
+   79.21,
+   80.07,
+   80.89,
+   81.69,
+   82.46,
+   83.21,
+   83.93,
+   84.63,
+   85.3,
+   85.96,
+   86.6,
+   87.22,
+   87.83,
+   88.41,
+   88.98,
+   89.51,
+   90.03,
+   90.54,
+   91.03,
+   91.51,
+   91.96,
+   92.39,
+   92.82,
+   93.23,
+   93.62,
+   94.0,
+   94.38,
+   94.73,
+   95.08,
+   95.41,
+   95.74,
+   96.04,
+   96.34,
+   96.62,
+   96.89,
+   97.16,
+   97.41,
+   97.65,
+   97.88,
+   98.1,
+   98.3,
+   98.5,
+   98.68,
+   98.86,
+   99.02,
+   99.18,
+   99.32,
+   99.46,
+   99.58,
+   99.7,
+   99.81,
+   99.91,
+   100.0,
+   100.08,
+   100.16,
+   100.23,
+   100.28,
+   100.33,
+   100.36,
+   100.37,
+   100.37,
+   100.35,
+   100.32,
+   100.26,
+   100.0
+  ]
+ },
+ "segments": [
+  {
+   "segment": "Champions",
+   "customers": 848,
+   "avg_orders": 7.9,
+   "avg_profit": 699.6,
+   "profit": 593248.4,
+   "avg_recency_days": 33.4,
+   "pct_customers": 16.0,
+   "pct_profit": 34.4
+  },
+  {
+   "segment": "Loyal",
+   "customers": 710,
+   "avg_orders": 5.0,
+   "avg_profit": 501.7,
+   "profit": 356220.6,
+   "avg_recency_days": 125.8,
+   "pct_customers": 13.4,
+   "pct_profit": 20.7
+  },
+  {
+   "segment": "At risk",
+   "customers": 685,
+   "avg_orders": 5.2,
+   "avg_profit": 610.9,
+   "profit": 418438.8,
+   "avg_recency_days": 404.7,
+   "pct_customers": 13.0,
+   "pct_profit": 24.3
+  },
+  {
+   "segment": "New / promising",
+   "customers": 1024,
+   "avg_orders": 1.4,
+   "avg_profit": 76.8,
+   "profit": 78654.3,
+   "avg_recency_days": 52.0,
+   "pct_customers": 19.4,
+   "pct_profit": 4.6
+  },
+  {
+   "segment": "Needs attention",
+   "customers": 589,
+   "avg_orders": 1.4,
+   "avg_profit": 120.5,
+   "profit": 71003.4,
+   "avg_recency_days": 164.3,
+   "pct_customers": 11.1,
+   "pct_profit": 4.1
+  },
+  {
+   "segment": "Hibernating",
+   "customers": 1429,
+   "avg_orders": 1.3,
+   "avg_profit": 144.6,
+   "profit": 206662.5,
+   "avg_recency_days": 477.1,
+   "pct_customers": 27.0,
+   "pct_profit": 12.0
+  }
+ ],
+ "holdout": [
+  {
+   "segment": "Champions",
+   "customers": 623,
+   "bought_again_pct": 64.8,
+   "next6m_profit": 111.1
+  },
+  {
+   "segment": "Loyal",
+   "customers": 520,
+   "bought_again_pct": 41.3,
+   "next6m_profit": 58.4
+  },
+  {
+   "segment": "At risk",
+   "customers": 422,
+   "bought_again_pct": 22.3,
+   "next6m_profit": 20.0
+  },
+  {
+   "segment": "New / promising",
+   "customers": 714,
+   "bought_again_pct": 47.8,
+   "next6m_profit": 67.5
+  },
+  {
+   "segment": "Needs attention",
+   "customers": 410,
+   "bought_again_pct": 21.2,
+   "next6m_profit": 18.6
+  },
+  {
+   "segment": "Hibernating",
+   "customers": 1089,
+   "bought_again_pct": 14.0,
+   "next6m_profit": 11.7
+  }
+ ],
+ "model": {
+  "train": 2654,
+  "test": 1124,
+  "mae_zero": 49.39,
+  "mae_segment": 62.55,
+  "mae_model": 60.47,
+  "capture_random": 20.0,
+  "capture_segment": 39.5,
+  "capture_model": 49.3,
+  "capture_past_profit": 34.8,
+  "importance": {
+   "recency_days": 0.393,
+   "monetary": 0.247,
+   "tenure_days": 0.184,
+   "frequency": 0.119,
+   "Organic": 0.043
+  }
+ },
+ "plan": [
+  {
+   "segment": "Champions",
+   "customers_now": 848,
+   "expected_12m_profit": 222.0,
+   "max_spend_per_customer": 67.0,
+   "action": "Thank, early access, no discounts"
+  },
+  {
+   "segment": "Loyal",
+   "customers_now": 710,
+   "expected_12m_profit": 117.0,
+   "max_spend_per_customer": 35.0,
+   "action": "Cross-sell, loyalty perks"
+  },
+  {
+   "segment": "At risk",
+   "customers_now": 685,
+   "expected_12m_profit": 40.0,
+   "max_spend_per_customer": 12.0,
+   "action": "Win-back offer, one email series"
+  },
+  {
+   "segment": "New / promising",
+   "customers_now": 1024,
+   "expected_12m_profit": 135.0,
+   "max_spend_per_customer": 40.0,
+   "action": "Second-order welcome series"
+  },
+  {
+   "segment": "Needs attention",
+   "customers_now": 589,
+   "expected_12m_profit": 37.0,
+   "max_spend_per_customer": 11.0,
+   "action": "Light-touch reminders"
+  },
+  {
+   "segment": "Hibernating",
+   "customers_now": 1429,
+   "expected_12m_profit": 23.0,
+   "max_spend_per_customer": 7.0,
+   "action": "Cheap channels only, or none"
+  }
+ ],
+ "channels": [
+  {
+   "acquisition_channel": "Email & Referral",
+   "customers": 450,
+   "two_year_profit": 375.0,
+   "new_customers_2025": 510,
+   "spend_2025": 49109.0,
+   "spend_per_new_customer": 96.3
+  },
+  {
+   "acquisition_channel": "Organic",
+   "customers": 888,
+   "two_year_profit": 308.6,
+   "new_customers_2025": 991,
+   "spend_2025": NaN,
+   "spend_per_new_customer": NaN
+  },
+  {
+   "acquisition_channel": "Paid Search",
+   "customers": 753,
+   "two_year_profit": 290.9,
+   "new_customers_2025": 915,
+   "spend_2025": 251567.0,
+   "spend_per_new_customer": 274.9
+  },
+  {
+   "acquisition_channel": "Paid Social",
+   "customers": 509,
+   "two_year_profit": 211.4,
+   "new_customers_2025": 984,
+   "spend_2025": 207506.0,
+   "spend_per_new_customer": 210.9
+  }
+ ],
+ "q3_cohort": {
+  "customers": 725,
+  "from_test": 370,
+  "back_pct_test": 8.4,
+  "back_pct_other": 42.0
+ }
+}

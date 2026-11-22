@@ -1,0 +1,57 @@
+sku,product_name,category,list_price,unit_cost,weight_kg
+HH-TEX-001,Linen Throw,Textiles,94.99,32.62,2.6
+HH-TEX-002,Wool Blanket,Textiles,84.99,32.01,1.0
+HH-TEX-003,Cotton Pillow,Textiles,44.99,16.8,2.3
+HH-TEX-004,Bath Towel Set,Textiles,44.99,15.47,1.3
+HH-TEX-005,Velvet Cushion,Textiles,34.99,11.57,2.9
+HH-TEX-006,Quilted Bedspread,Textiles,54.99,17.9,1.9
+HH-TEX-007,Table Runner,Textiles,44.99,15.02,1.3
+HH-TEX-008,Waffle Robe,Textiles,64.99,23.08,2.8
+HH-TEX-009,Jute Rug,Textiles,34.99,12.24,1.4
+HH-TEX-010,Sherpa Throw,Textiles,59.99,22.5,2.8
+HH-TEX-011,Duvet Cover,Textiles,79.99,29.26,1.4
+HH-TEX-012,Hand Towels,Textiles,59.99,22.02,2.5
+HH-TEX-013,Knit Pouf Cover,Textiles,64.99,24.03,2.7
+HH-TEX-014,Tea Towels,Textiles,49.99,17.38,1.5
+HH-KIT-001,Cast Iron Skillet,Kitchen,134.99,60.69,3.7
+HH-KIT-002,Ceramic Mug Set,Kitchen,84.99,36.74,5.9
+HH-KIT-003,Chef Knife,Kitchen,94.99,45.96,2.0
+HH-KIT-004,Pour-Over Kettle,Kitchen,144.99,63.4,2.5
+HH-KIT-005,Stoneware Bowls,Kitchen,119.99,56.18,5.8
+HH-KIT-006,Bamboo Board,Kitchen,154.99,74.56,4.1
+HH-KIT-007,Dutch Oven,Kitchen,74.99,31.8,2.8
+HH-KIT-008,Glass Storage Set,Kitchen,64.99,29.77,3.7
+HH-KIT-009,Copper Measuring Cups,Kitchen,34.99,15.7,5.2
+HH-KIT-010,Salad Bowl,Kitchen,109.99,46.01,1.2
+HH-KIT-011,Spice Rack,Kitchen,44.99,21.3,5.9
+HH-KIT-012,French Press,Kitchen,79.99,38.81,5.2
+HH-FUR-001,Oak Side Table,Furniture,234.99,134.35,27.7
+HH-FUR-002,Accent Chair,Furniture,414.99,234.13,37.5
+HH-FUR-003,Walnut Bookshelf,Furniture,249.99,147.27,20.8
+HH-FUR-004,Storage Bench,Furniture,514.99,273.26,18.4
+HH-FUR-005,Bar Stool,Furniture,189.99,107.46,21.5
+HH-FUR-006,Console Table,Furniture,359.99,213.52,20.2
+HH-FUR-007,Nesting Tables,Furniture,539.99,299.49,15.3
+HH-FUR-008,Coffee Table,Furniture,274.99,141.65,18.2
+HH-FUR-009,Rattan Lounger,Furniture,564.99,326.11,27.0
+HH-FUR-010,Writing Desk,Furniture,284.99,160.62,28.8
+HH-LGT-001,Brass Table Lamp,Lighting,154.99,64.27,4.1
+HH-LGT-002,Pendant Light,Lighting,124.99,58.33,5.9
+HH-LGT-003,String Lights,Lighting,109.99,51.93,5.2
+HH-LGT-004,Desk Lamp,Lighting,139.99,64.72,3.8
+HH-LGT-005,Wall Sconce,Lighting,144.99,60.7,3.7
+HH-LGT-006,Floor Lamp,Lighting,169.99,82.17,4.6
+HH-LGT-007,Aurora Standing Lamp,Lighting,189.99,85.5,8.5
+HH-LGT-008,Candle Lantern,Lighting,154.99,70.74,3.3
+HH-LGT-009,Reading Light,Lighting,59.99,26.53,4.2
+HH-LGT-010,Globe Lamp,Lighting,134.99,57.98,9.0
+HH-SMH-001,Smart Plug 4-Pack,Smart Home,109.99,89.66,1.5
+HH-SMH-002,Video Doorbell,Smart Home,54.99,46.54,1.4
+HH-SMH-003,Smart Thermostat,Smart Home,114.99,84.96,1.8
+HH-SMH-004,Wi-Fi Camera,Smart Home,249.99,214.15,0.9
+HH-SMH-005,Smart Bulb Kit,Smart Home,189.99,159.52,1.8
+HH-SMH-006,Smart Speaker,Smart Home,189.99,142.27,1.2
+HH-SMH-007,Motion Sensor Kit,Smart Home,189.99,151.35,2.2
+HH-SMH-008,Smart Lock,Smart Home,139.99,108.66,2.1
+HH-SMH-009,Robot Vacuum,Smart Home,79.99,59.46,1.3
+HH-SMH-010,Air Quality Monitor,Smart Home,254.99,206.09,2.8

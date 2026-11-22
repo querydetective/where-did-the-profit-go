@@ -1,0 +1,707 @@
+{
+ "pnl": {
+  "2024": {
+   "gross_sales": 2488101.54,
+   "discounts": 24644.25,
+   "net_sales": 2463457.29,
+   "refunds": 121615.02,
+   "cogs": 1256178.27,
+   "shipping": 139251.91,
+   "contribution_profit": 946412.09,
+   "marketing": 478280.0,
+   "orders": 8098.0,
+   "cogs_recovered": 64839.8
+  },
+  "2025": {
+   "gross_sales": 3189456.94,
+   "discounts": 263274.98,
+   "net_sales": 2926181.96,
+   "refunds": 200616.48,
+   "cogs": 1693491.35,
+   "shipping": 254258.16,
+   "contribution_profit": 777815.97,
+   "marketing": 508182.0,
+   "orders": 9797.0,
+   "cogs_recovered": 95569.36
+  }
+ },
+ "growth": {
+  "net_sales_pct": 18.8,
+  "profit_pct": -17.8
+ },
+ "naive_dashboard": {
+  "revenue": {
+   "2024": 2463459.25,
+   "2025": 3001419.96,
+   "2026": 1875.88
+  },
+  "growth_pct": 21.8,
+  "inflated_by": 75238
+ },
+ "bridge": {
+  "volume": 266778,
+  "mix": -97219,
+  "discounts": -231684,
+  "returns": -32268,
+  "shipping": -75753,
+  "product_cost": 1549
+ },
+ "discounts": [
+  {
+   "year": 2024,
+   "promo_code": "WELCOME10",
+   "orders": 641,
+   "discount_given": 19220.0
+  },
+  {
+   "year": 2024,
+   "promo_code": "BLACKFRI15",
+   "orders": 123,
+   "discount_given": 5425.0
+  },
+  {
+   "year": 2025,
+   "promo_code": "SITEWIDE20",
+   "orders": 3346,
+   "discount_given": 220206.0
+  },
+  {
+   "year": 2025,
+   "promo_code": "TEST20",
+   "orders": 425,
+   "discount_given": 27623.0
+  },
+  {
+   "year": 2025,
+   "promo_code": "WELCOME10",
+   "orders": 478,
+   "discount_given": 15447.0
+  }
+ ],
+ "ab_test": [
+  {
+   "test_group": "Control",
+   "customers": 2986,
+   "buyers": 306,
+   "conversion_pct": 10.25,
+   "net_sales": 123718.0,
+   "sales_per_customer": 41.43,
+   "product_profit_per_customer": 17.84
+  },
+  {
+   "test_group": "Treatment",
+   "customers": 3014,
+   "buyers": 332,
+   "conversion_pct": 11.02,
+   "net_sales": 110483.0,
+   "sales_per_customer": 36.66,
+   "product_profit_per_customer": 11.16
+  }
+ ],
+ "ab_stats": {
+  "conv_control": 10.25,
+  "conv_treatment": 11.02,
+  "conv_lift_pts": 0.77,
+  "conv_z": 0.96,
+  "conv_p": 0.335,
+  "profit_diff_per_customer": -6.68,
+  "profit_ci95": [
+   -9.65,
+   -3.71
+  ],
+  "profit_p": 0.0
+ },
+ "shipping": [
+  {
+   "year": 2024,
+   "carrier": "ParcelPro",
+   "weight_band": "Heavy (>10 kg)",
+   "orders": 3196,
+   "avg_cost_per_order": 28.3,
+   "total_cost": 90441.0
+  },
+  {
+   "year": 2024,
+   "carrier": "ParcelPro",
+   "weight_band": "Light",
+   "orders": 4902,
+   "avg_cost_per_order": 9.96,
+   "total_cost": 48810.0
+  },
+  {
+   "year": 2025,
+   "carrier": "ParcelPro",
+   "weight_band": "Heavy (>10 kg)",
+   "orders": 787,
+   "avg_cost_per_order": 28.31,
+   "total_cost": 22279.0
+  },
+  {
+   "year": 2025,
+   "carrier": "ParcelPro",
+   "weight_band": "Light",
+   "orders": 5847,
+   "avg_cost_per_order": 9.89,
+   "total_cost": 57812.0
+  },
+  {
+   "year": 2025,
+   "carrier": "SwiftShip",
+   "weight_band": "Heavy (>10 kg)",
+   "orders": 3163,
+   "avg_cost_per_order": 55.06,
+   "total_cost": 174167.0
+  }
+ ],
+ "shipping_extra": 84610,
+ "returns_top_2025": [
+  {
+   "year": 2025,
+   "product_name": "Aurora Standing Lamp",
+   "category": "Lighting",
+   "units_sold": 1355,
+   "units_returned": 320,
+   "return_rate_pct": 23.6,
+   "defective_units": 246,
+   "return_cost": 50803.0,
+   "cost_rank": 1
+  },
+  {
+   "year": 2025,
+   "product_name": "Rattan Lounger",
+   "category": "Furniture",
+   "units_sold": 275,
+   "units_returned": 18,
+   "return_rate_pct": 6.5,
+   "defective_units": 0,
+   "return_cost": 3622.0,
+   "cost_rank": 2
+  },
+  {
+   "year": 2025,
+   "product_name": "Storage Bench",
+   "category": "Furniture",
+   "units_sold": 275,
+   "units_returned": 15,
+   "return_rate_pct": 5.5,
+   "defective_units": 0,
+   "return_cost": 3214.0,
+   "cost_rank": 3
+  },
+  {
+   "year": 2025,
+   "product_name": "Nesting Tables",
+   "category": "Furniture",
+   "units_sold": 308,
+   "units_returned": 14,
+   "return_rate_pct": 4.5,
+   "defective_units": 0,
+   "return_cost": 3043.0,
+   "cost_rank": 4
+  },
+  {
+   "year": 2025,
+   "product_name": "Pour-Over Kettle",
+   "category": "Kitchen",
+   "units_sold": 515,
+   "units_returned": 37,
+   "return_rate_pct": 7.2,
+   "defective_units": 0,
+   "return_cost": 2468.0,
+   "cost_rank": 5
+  }
+ ],
+ "aurora": {
+  "by_year": [
+   {
+    "year": 2024,
+    "units_sold": 238,
+    "units_returned": 6,
+    "return_rate_pct": 2.5,
+    "defective_units": 0,
+    "return_cost": 589.0
+   },
+   {
+    "year": 2025,
+    "units_sold": 1355,
+    "units_returned": 320,
+    "return_rate_pct": 23.6,
+    "defective_units": 246,
+    "return_cost": 50803.0
+   }
+  ],
+  "monthly": [
+   {
+    "month": "2024-01",
+    "sold": 19,
+    "returned": 1.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-02",
+    "sold": 17,
+    "returned": 1.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-03",
+    "sold": 19,
+    "returned": 0.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-04",
+    "sold": 23,
+    "returned": 0.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-05",
+    "sold": 17,
+    "returned": 1.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-06",
+    "sold": 20,
+    "returned": 0.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-07",
+    "sold": 10,
+    "returned": 2.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-08",
+    "sold": 14,
+    "returned": 1.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-09",
+    "sold": 21,
+    "returned": 0.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-10",
+    "sold": 24,
+    "returned": 0.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-11",
+    "sold": 25,
+    "returned": 0.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2024-12",
+    "sold": 29,
+    "returned": 0.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2025-01",
+    "sold": 88,
+    "returned": 4.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2025-02",
+    "sold": 62,
+    "returned": 3.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2025-03",
+    "sold": 111,
+    "returned": 9.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2025-04",
+    "sold": 112,
+    "returned": 11.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2025-05",
+    "sold": 96,
+    "returned": 42.0,
+    "defective": 31.0
+   },
+   {
+    "month": "2025-06",
+    "sold": 121,
+    "returned": 62.0,
+    "defective": 53.0
+   },
+   {
+    "month": "2025-07",
+    "sold": 123,
+    "returned": 43.0,
+    "defective": 41.0
+   },
+   {
+    "month": "2025-08",
+    "sold": 92,
+    "returned": 41.0,
+    "defective": 35.0
+   },
+   {
+    "month": "2025-09",
+    "sold": 112,
+    "returned": 43.0,
+    "defective": 42.0
+   },
+   {
+    "month": "2025-10",
+    "sold": 100,
+    "returned": 48.0,
+    "defective": 44.0
+   },
+   {
+    "month": "2025-11",
+    "sold": 147,
+    "returned": 6.0,
+    "defective": 0.0
+   },
+   {
+    "month": "2025-12",
+    "sold": 191,
+    "returned": 8.0,
+    "defective": 0.0
+   }
+  ]
+ },
+ "mix": [
+  {
+   "year": 2024,
+   "category": "Furniture",
+   "net_sales": 827217.0,
+   "share_pct": 33.6,
+   "product_margin_pct": 43.8
+  },
+  {
+   "year": 2024,
+   "category": "Kitchen",
+   "net_sales": 505325.0,
+   "share_pct": 20.5,
+   "product_margin_pct": 54.5
+  },
+  {
+   "year": 2024,
+   "category": "Smart Home",
+   "net_sales": 398339.0,
+   "share_pct": 16.2,
+   "product_margin_pct": 19.8
+  },
+  {
+   "year": 2024,
+   "category": "Textiles",
+   "net_sales": 385552.0,
+   "share_pct": 15.7,
+   "product_margin_pct": 64.4
+  },
+  {
+   "year": 2024,
+   "category": "Lighting",
+   "net_sales": 347025.0,
+   "share_pct": 14.1,
+   "product_margin_pct": 55.1
+  },
+  {
+   "year": 2025,
+   "category": "Furniture",
+   "net_sales": 956355.0,
+   "share_pct": 32.7,
+   "product_margin_pct": 43.9
+  },
+  {
+   "year": 2025,
+   "category": "Smart Home",
+   "net_sales": 702590.0,
+   "share_pct": 24.0,
+   "product_margin_pct": 19.9
+  },
+  {
+   "year": 2025,
+   "category": "Kitchen",
+   "net_sales": 513851.0,
+   "share_pct": 17.6,
+   "product_margin_pct": 54.6
+  },
+  {
+   "year": 2025,
+   "category": "Lighting",
+   "net_sales": 415917.0,
+   "share_pct": 14.2,
+   "product_margin_pct": 55.0
+  },
+  {
+   "year": 2025,
+   "category": "Textiles",
+   "net_sales": 337469.0,
+   "share_pct": 11.5,
+   "product_margin_pct": 64.4
+  }
+ ],
+ "cohorts": [
+  {
+   "cohort": "2024-Q1",
+   "q_after": 0,
+   "customers": 962,
+   "pct_of_cohort": 100.0
+  },
+  {
+   "cohort": "2024-Q1",
+   "q_after": 1,
+   "customers": 424,
+   "pct_of_cohort": 44.1
+  },
+  {
+   "cohort": "2024-Q1",
+   "q_after": 2,
+   "customers": 332,
+   "pct_of_cohort": 34.5
+  },
+  {
+   "cohort": "2024-Q1",
+   "q_after": 3,
+   "customers": 319,
+   "pct_of_cohort": 33.2
+  },
+  {
+   "cohort": "2024-Q1",
+   "q_after": 4,
+   "customers": 211,
+   "pct_of_cohort": 21.9
+  },
+  {
+   "cohort": "2024-Q1",
+   "q_after": 5,
+   "customers": 178,
+   "pct_of_cohort": 18.5
+  },
+  {
+   "cohort": "2024-Q1",
+   "q_after": 6,
+   "customers": 163,
+   "pct_of_cohort": 16.9
+  },
+  {
+   "cohort": "2024-Q1",
+   "q_after": 7,
+   "customers": 157,
+   "pct_of_cohort": 16.3
+  },
+  {
+   "cohort": "2024-Q2",
+   "q_after": 0,
+   "customers": 616,
+   "pct_of_cohort": 100.0
+  },
+  {
+   "cohort": "2024-Q2",
+   "q_after": 1,
+   "customers": 242,
+   "pct_of_cohort": 39.3
+  },
+  {
+   "cohort": "2024-Q2",
+   "q_after": 2,
+   "customers": 220,
+   "pct_of_cohort": 35.7
+  },
+  {
+   "cohort": "2024-Q2",
+   "q_after": 3,
+   "customers": 123,
+   "pct_of_cohort": 20.0
+  },
+  {
+   "cohort": "2024-Q2",
+   "q_after": 4,
+   "customers": 113,
+   "pct_of_cohort": 18.3
+  },
+  {
+   "cohort": "2024-Q2",
+   "q_after": 5,
+   "customers": 100,
+   "pct_of_cohort": 16.2
+  },
+  {
+   "cohort": "2024-Q2",
+   "q_after": 6,
+   "customers": 88,
+   "pct_of_cohort": 14.3
+  },
+  {
+   "cohort": "2024-Q3",
+   "q_after": 0,
+   "customers": 560,
+   "pct_of_cohort": 100.0
+  },
+  {
+   "cohort": "2024-Q3",
+   "q_after": 1,
+   "customers": 258,
+   "pct_of_cohort": 46.1
+  },
+  {
+   "cohort": "2024-Q3",
+   "q_after": 2,
+   "customers": 145,
+   "pct_of_cohort": 25.9
+  },
+  {
+   "cohort": "2024-Q3",
+   "q_after": 3,
+   "customers": 117,
+   "pct_of_cohort": 20.9
+  },
+  {
+   "cohort": "2024-Q3",
+   "q_after": 4,
+   "customers": 124,
+   "pct_of_cohort": 22.1
+  },
+  {
+   "cohort": "2024-Q3",
+   "q_after": 5,
+   "customers": 108,
+   "pct_of_cohort": 19.3
+  },
+  {
+   "cohort": "2024-Q4",
+   "q_after": 0,
+   "customers": 584,
+   "pct_of_cohort": 100.0
+  },
+  {
+   "cohort": "2024-Q4",
+   "q_after": 1,
+   "customers": 236,
+   "pct_of_cohort": 40.4
+  },
+  {
+   "cohort": "2024-Q4",
+   "q_after": 2,
+   "customers": 152,
+   "pct_of_cohort": 26.0
+  },
+  {
+   "cohort": "2024-Q4",
+   "q_after": 3,
+   "customers": 130,
+   "pct_of_cohort": 22.3
+  },
+  {
+   "cohort": "2024-Q4",
+   "q_after": 4,
+   "customers": 134,
+   "pct_of_cohort": 22.9
+  },
+  {
+   "cohort": "2025-Q1",
+   "q_after": 0,
+   "customers": 488,
+   "pct_of_cohort": 100.0
+  },
+  {
+   "cohort": "2025-Q1",
+   "q_after": 1,
+   "customers": 183,
+   "pct_of_cohort": 37.5
+  },
+  {
+   "cohort": "2025-Q1",
+   "q_after": 2,
+   "customers": 115,
+   "pct_of_cohort": 23.6
+  },
+  {
+   "cohort": "2025-Q1",
+   "q_after": 3,
+   "customers": 110,
+   "pct_of_cohort": 22.5
+  },
+  {
+   "cohort": "2025-Q2",
+   "q_after": 0,
+   "customers": 568,
+   "pct_of_cohort": 100.0
+  },
+  {
+   "cohort": "2025-Q2",
+   "q_after": 1,
+   "customers": 233,
+   "pct_of_cohort": 41.0
+  },
+  {
+   "cohort": "2025-Q2",
+   "q_after": 2,
+   "customers": 206,
+   "pct_of_cohort": 36.3
+  },
+  {
+   "cohort": "2025-Q3",
+   "q_after": 0,
+   "customers": 725,
+   "pct_of_cohort": 100.0
+  },
+  {
+   "cohort": "2025-Q3",
+   "q_after": 1,
+   "customers": 180,
+   "pct_of_cohort": 24.8
+  },
+  {
+   "cohort": "2025-Q4",
+   "q_after": 0,
+   "customers": 782,
+   "pct_of_cohort": 100.0
+  }
+ ],
+ "cleaning_log": [
+  {
+   "step": "convert UTC to Eastern time",
+   "rows_affected": 9421,
+   "detail": "new platform timestamps were UTC"
+  },
+  {
+   "step": "combine both systems",
+   "rows_affected": 30166,
+   "detail": "20745 legacy + 9421 new-platform lines"
+  },
+  {
+   "step": "standardize SKU case",
+   "rows_affected": 282,
+   "detail": "e.g. hh-kit-004 -> HH-KIT-004"
+  },
+  {
+   "step": "drop test orders",
+   "rows_affected": 8,
+   "detail": "customer_id = TEST, price 0"
+  },
+  {
+   "step": "drop migration duplicates",
+   "rows_affected": 387,
+   "detail": "221 orders exported by BOTH systems"
+  },
+  {
+   "step": "standardize customer state",
+   "rows_affected": 613,
+   "detail": "' nj ' -> 'NJ'"
+  },
+  {
+   "step": "check shipping invoices match orders",
+   "rows_affected": 0,
+   "detail": "invoices with no matching order"
+  }
+ ]
+}

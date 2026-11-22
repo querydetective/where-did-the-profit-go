@@ -1,0 +1,8 @@
+step,rows_affected,detail
+convert UTC to Eastern time,9421,new platform timestamps were UTC
+combine both systems,30166,20745 legacy + 9421 new-platform lines
+standardize SKU case,282,e.g. hh-kit-004 -> HH-KIT-004
+drop test orders,8,"customer_id = TEST, price 0"
+drop migration duplicates,387,221 orders exported by BOTH systems
+standardize customer state,613,' nj ' -> 'NJ'
+check shipping invoices match orders,0,invoices with no matching order
