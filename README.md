@@ -90,12 +90,12 @@ flowchart LR
 | 3 | `src/load_warehouse.py` + `sql/0*.sql` | Staging tables, then dimensions, facts and marts (star schema) |
 | 4 | `tests/test_data_quality.py` | Uniqueness, referential integrity, row-count reconciliation, mart totals match facts |
 | 5 | `src/analysis.py` + `sql/analysis/*.sql` | Window functions, cohorts, the profit bridge, a two-proportion z-test and Welch t-test |
-| 7 | `src/experiment.py` · `src/customers.py` | Act 2 test analysis and Act 3 customer value, with 5 more tests |
-| 8 | `src/charts.py` · `src/charts_more.py` · `src/report.py` | 15 charts, Excel workbook, HTML dashboard, three memos |
+| 6 | `src/experiment.py` · `src/customers.py` | Act 2 test analysis and Act 3 customer value, with 5 more tests |
+| 7 | `src/charts.py` · `src/charts_more.py` · `src/report.py` | 15 charts, Excel workbook, HTML dashboard, three memos |
 
 ## Skills shown
 
-SQL (CTEs, window functions: `RANK`, `FIRST_VALUE`, running share; recursive date dimension) · dimensional modeling · Python/pandas data cleaning · automated data-quality testing · A/B test analysis with confidence intervals · variance (price/volume/mix) analysis · data visualization · stakeholder communication.
+SQL (CTEs, window functions: `RANK`, `FIRST_VALUE`, running share; recursive date dimension) · dimensional modeling · Python/pandas data cleaning · automated data-quality testing · A/B test design and analysis (sample size, SRM, peeking) · RFM segmentation and a holdout-validated ML model · variance (price/volume/mix) analysis · data visualization · stakeholder communication.
 
 ## Two bugs I caught (and what they taught me)
 
@@ -106,12 +106,12 @@ SQL (CTEs, window functions: `RANK`, `FIRST_VALUE`, running share; recursive dat
 
 ```
 run_pipeline.py          one command for everything
-src/                     python steps (config, generate, clean, load, analysis, charts, report)
-sql/                     warehouse build (01-03) and analysis queries (a1-a7)
-tests/                   data-quality tests
+src/                     python steps (generate, clean, load, analysis, experiment, customers, charts, report)
+sql/                     warehouse build (01-03) and analysis queries (a1-a8)
+tests/                   16 tests: data quality, experiment, customer value
 data/raw, data/processed generated inputs and cleaned outputs
 warehouse/               harbor_hearth.db (SQLite)
-reports/                 charts, dashboard, workbook, memo, findings.json
+reports/                 15 charts, dashboard, workbook, 3 memos, findings
 docs/                    data dictionary, decision log
 ```
 
